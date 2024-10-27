@@ -1,0 +1,17 @@
+p{
+    background-color: hotpink;
+}
+#A{
+    background-color: aqua;
+}
+.B{
+    background-color: blue;
+
+}
+div >p{
+    border: 1px solid rgb(15, 20, 2);
+    
+
+
+
+}

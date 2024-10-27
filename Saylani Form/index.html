@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Saylani Registration Form</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="student-name">Student Name</label>
+                <input type="text" id="student-name" name="student-name" required>
+            </div>
+            <div class="form-group">
+                <label for="father-name">Father Name</label>
+                <input type="text" id="father-name" name="father-name" required>
+            </div>
+            <div class="form-group">
+                <label for="cnic">CNIC Number</label>
+                <input type="text" id="cnic" name="cnic" maxlength="15" placeholder="XXXXX-XXXXXXX-X" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="qualification">Qualification</label>
+                <input type="text" id="qualification" name="qualification" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City</label>
+                <select id="city" name="city" required>
+                    <option value="" disabled selected>Select City</option>
+                    <option value="karachi">Karachi</option>
+                    <option value="lahore">Lahore</option>
+                    <option value="islamabad">Islamabad</option>
+                    <option value="peshawar">Peshawar</option>
+                    <option value="quetta">Quetta</option>
+                </select>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+p{
+    background-color: brown;
+}
+#ABCD {
+    background-color: blue;
+}
+.kkk{
+    background-color: aquamarine;
+}
+div#main-wrapper >child-1.element{
+
+    background-color: orange;
+}
