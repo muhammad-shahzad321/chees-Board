@@ -1,0 +1,35 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.chess-board {
+    display: grid;
+    grid-template-columns: repeat(5, 80px); /* 5 columns, each 80px wide */
+    grid-template-rows: repeat(5, 80px);    /* 5 rows, each 80px tall */
+    border: 5px solid #333;
+}
+
+.chess-board div {
+    width: 80px;
+    height: 80px;
+}
+
+/* Alternate black and white colors */
+.chess-board div:nth-child(odd) {
+    background-color: #fff;
+}
+
+.chess-board div:nth-child(even) {
+    background-color: #000;
+}
